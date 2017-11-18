@@ -136,3 +136,12 @@ footer {
     background: #68006C;
     font-weight: 400;
 }
+
+.form-row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+}
