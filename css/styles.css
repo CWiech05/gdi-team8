@@ -68,7 +68,7 @@ footer {
 }
 
 .panel-default {
-    border-color: #ddd;
+    border: 1px solid #ddd;
 }
 
 .panel-profile .panel-heading {
