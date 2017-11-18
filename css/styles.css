@@ -1,4 +1,7 @@
 #banner {
+    margin-bottom: 50px;
+}
+#banner img {
     padding: 0;
 }
 
@@ -12,11 +15,16 @@
   width: 100%;
 }
 
-.panel-profile-img {
-	max-width: 100px;
-    margin-top: -70px;
-    margin-bottom: 5px;
-    border: 3px solid #fff;
-    border-radius: 100%;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.1)
+.monthly-special {
+  padding: 1rem 2rem 0 2rem;
+  background-color: #eceeef;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+#social img {
+  max-width: 30px;
+>>>>>>> 16ca21e365ed13434d262f37c53f8e20353eb53f
 }
