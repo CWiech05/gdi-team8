@@ -1,5 +1,6 @@
 body {
-    font-family: "Lato light";
+    font-family: Lato;
+    font-weight: 300;
     color: #333;
 }
 
@@ -10,13 +11,19 @@ nav {
 }
 
 nav li {
-  padding: 0 15px;
+    padding: 0 15px;
+}
+
+h1 {
+    font-family: Lato;
+    font-size: 24px;
+    color: #68006C;
 }
 
 h2 {
-  font-family: Amethysta;
-  font-size: 22px;
-  color: #333;
+    font-family: Amethysta;
+    font-size: 22px;
+    color: #333;
 }
 
 #banner {
@@ -33,21 +40,27 @@ h2 {
 }
 
 .card img {
-  width: 100%;
+    width: 100%;
 }
 
 .monthly-special {
-  padding: 1rem 2rem 0 2rem;
-  background-color: #eceeef;
+    padding: 1rem 2rem 0 2rem;
+    background-color: #eceeef;
+    margin-bottom: 30px;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 footer {
-  margin-top: 30px;
+    border-top: 1px solid #68006C;
+    margin-top: 30px;
+    padding-top: 20px;
 }
 
 #social img {
-  max-width: 30px;
->>>>>>> 16ca21e365ed13434d262f37c53f8e20353eb53f
+    max-width: 30px;
 }
 
 .m-b-lg {
@@ -68,11 +81,11 @@ footer {
 }
 
 .panel-default {
-    border-color: #ddd;
+    border: 1px solid #ddd;
 }
 
 .panel-profile .panel-heading {
-    height: 150px;
+    height: 80px;
     background-size: cover;
 }
 
@@ -115,9 +128,7 @@ footer {
     padding: 7px 24px;
     border-radius: 4px;
     color: #fff;
-    border: 1px solid #6b15a1;
-    background: #6b15a1;
+    border: 1px solid #68006C;
+    background: #68006C;
     font-weight: 400;
 }
-
-
