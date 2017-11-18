@@ -1,5 +1,6 @@
 body {
-    font-family: "Lato Light";
+    font-family: "Lato";
+    font-weight: 300;
     color: #333;
 }
 
@@ -42,8 +43,14 @@ h2 {
     margin-bottom: 30px;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 footer {
+    border-top: 1px solid #68006C;
     margin-top: 30px;
+    padding-top: 20px;
 }
 
 #social img {
@@ -119,5 +126,3 @@ footer {
     background: #6b15a1;
     font-weight: 400;
 }
-
-
