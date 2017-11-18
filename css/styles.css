@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato";
+    font-family: Lato;
     font-weight: 300;
     color: #333;
 }
@@ -15,7 +15,7 @@ nav li {
 }
 
 h1 {
-    font-family: "Lato Bold";
+    font-family: Lato;
     font-size: 24px;
     color: #68006C;
 }
