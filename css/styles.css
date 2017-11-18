@@ -26,6 +26,10 @@ h2 {
     color: #333;
 }
 
+.card h2 {
+  text-align: center;
+}
+
 #banner {
     margin-bottom: 50px;
 }
