@@ -1,3 +1,24 @@
+body {
+    font-family: "Lato light";
+    color: #333;
+}
+
+nav {
+    font-family: Lato;
+    font-size: 24px;
+    color: #333;
+}
+
+nav li {
+  padding: 0 15px;
+}
+
+h2 {
+  font-family: Amethysta;
+  font-size: 22px;
+  color: #333;
+}
+
 #banner {
     margin-bottom: 50px;
 }
@@ -26,4 +47,13 @@ footer {
 
 #social img {
   max-width: 30px;
+}
+
+.panel-profile-img {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
 }
