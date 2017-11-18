@@ -159,8 +159,8 @@ jQuery(document).ready(function($){
 			var next = actual + 1;
 
 			if( emptyCart ) {
-				cartCount.find('li').eq(0).text(actual);
-				cartCount.find('li').eq(1).text(next);
+				cartCount.find('li').eq(0).html(actual);
+				cartCount.find('li').eq(1).html(next);
 			} else {
 				cartCount.addClass('update-count');
 
