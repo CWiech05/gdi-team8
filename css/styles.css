@@ -1,4 +1,7 @@
 #banner {
+    margin-bottom: 50px;
+}
+#banner img {
     padding: 0;
 }
 
@@ -10,4 +13,17 @@
 
 .card img {
   width: 100%;
+}
+
+.monthly-special {
+  padding: 1rem 2rem 0 2rem;
+  background-color: #eceeef;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+#social img {
+  max-width: 30px;
 }
