@@ -1,5 +1,5 @@
-.jumbortron {
-    background-color: #BFCFE0;
+#banner {
+    padding: 0;
 }
 
 .card {
@@ -9,6 +9,5 @@
 }
 
 .card img {
-  max-height: 240px;
   width: 100%;
 }
