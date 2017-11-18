@@ -1,5 +1,5 @@
 body {
-    font-family: "Lato light";
+    font-family: "Lato Light";
     color: #333;
 }
 
@@ -10,13 +10,13 @@ nav {
 }
 
 nav li {
-  padding: 0 15px;
+    padding: 0 15px;
 }
 
 h2 {
-  font-family: Amethysta;
-  font-size: 22px;
-  color: #333;
+    font-family: Amethysta;
+    font-size: 22px;
+    color: #333;
 }
 
 #banner {
@@ -33,21 +33,21 @@ h2 {
 }
 
 .card img {
-  width: 100%;
+    width: 100%;
 }
 
 .monthly-special {
-  padding: 1rem 2rem 0 2rem;
-  background-color: #eceeef;
+    padding: 1rem 2rem 0 2rem;
+    background-color: #eceeef;
+    margin-bottom: 30px;
 }
 
 footer {
-  margin-top: 30px;
+    margin-top: 30px;
 }
 
 #social img {
-  max-width: 30px;
->>>>>>> 16ca21e365ed13434d262f37c53f8e20353eb53f
+    max-width: 30px;
 }
 
 .m-b-lg {
