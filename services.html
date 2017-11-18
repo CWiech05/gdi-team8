@@ -10,6 +10,8 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amethysta" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/cart-styles.css">
 </head>
 <body>
 
@@ -127,7 +129,7 @@
                 <div class="panel-body text-center" style="background: #F5E7F5;">
                   <h5 class="panel-title">1 hour gift card</h5>
                   <p class="m-b">$40</p>
-                  <a href="https://app.smoothbook.co/calendar/5a107b7ba1401818ebf66d64" class="btn btn-primary-outline btn-sm m-b">Buy</a>
+                  <a href="#" class="btn btn-primary-outline btn-sm m-b cd-add-to-cart" data-price="40" data-name="1 hour gift card">Buy</a>
                 </div>
               </div>
             </div>
@@ -136,7 +138,7 @@
                 <div class="panel-body text-center" style="background: #F5E7F5;">
                   <h5 class="panel-title">2 hour gift card</h5>
                   <p class="m-b">$80</p>
-                  <a href="https://app.smoothbook.co/calendar/5a107b7ba1401818ebf66d64" class="btn btn-primary-outline btn-sm m-b">Buy</a>
+                  <a href="#" class="btn btn-primary-outline btn-sm m-b cd-add-to-cart" data-price="80" data-name="2 hour gift card">Buy</a>
                 </div>
               </div>
             </div>
@@ -145,12 +147,54 @@
                 <div class="panel-body text-center" style="background: #F5E7F5;">
                   <h5 class="panel-title">3 hour gift card</h5>
                   <p class="m-b">$120</p>
-                  <a href="https://app.smoothbook.co/calendar/5a107b7ba1401818ebf66d64" class="btn btn-primary-outline btn-sm m-b">Buy</a>
+                  <a href="#" class="btn btn-primary-outline btn-sm m-b cd-add-to-cart" data-price="120" data-name="3 hour gift card">Buy</a>
                 </div>
               </div>
             </div>
       </div>
   </div>
+
+
+  <div class="cd-cart-container empty">
+  	<a href="#0" class="cd-cart-trigger">
+  		Cart
+  		<ul class="count"> <!-- cart items count -->
+  			<li>0</li>
+  			<li>0</li>
+  		</ul> <!-- .count -->
+  	</a>
+
+
+
+
+    <div class="cd-cart-container empty">
+    	<a href="#0" class="cd-cart-trigger">
+    		Cart
+    		<ul class="count"> <!-- cart items count -->
+    			<li>0</li>
+    			<li>0</li>
+    		</ul> <!-- .count -->
+    	</a>
+
+    	<div class="cd-cart">
+    		<div class="wrapper">
+    			<header>
+    				<h2>Cart</h2>
+    				<span class="undo">Item removed. <a href="#0">Undo</a></span>
+    			</header>
+
+    			<div class="body">
+    				<ul>
+    					<!-- products added to the cart will be inserted here using JavaScript -->
+    				</ul>
+    			</div>
+
+    			<footer>
+    				<a href="#0" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
+    			</footer>
+    		</div>
+    	</div> <!-- .cd-cart -->
+    </div> <!-- cd-cart-container -->
 
 
   <footer class="container">
@@ -163,5 +207,6 @@
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="js/addToCart.js"></script>
 </body>
 </html>
