@@ -5,3 +5,4 @@ In this local business website redesign, we aimed to increase consumer trust and
 
 Interactive cart based on https://codyhouse.co/demo/add-to-cart-interaction/index.html
 
+![Homepage](https://imgur.com/a/UhRCs)
